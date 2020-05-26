@@ -1,0 +1,21 @@
+#additembtn {
+  display: flex;
+  margin: auto;
+  align-self: flex-end;
+}
+
+#createnewlistbtn {
+  display: flex;
+  margin: auto;
+  align-self: flex-end;
+}
+
+#createlistbtn {
+  display: flex;
+  margin: auto;
+  align-self: flex-end;
+}
+
+body {
+  font-family: 'ZCOOL XiaoWei', serif;
+}

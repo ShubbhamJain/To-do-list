@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>To Do List</title>
+  </head>
+  <body>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#3399ff">
+      <a href="#" class="navbar-brand">ToDoList</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapsebtn" type="button" name="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarcollapsebtn">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <button type="button" name="button" class="btn btn-warning mr-2 mb-1 mt-1">
+              <a href="#" class="nav-link">New List</a>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button type="button" name="button" class="btn btn-warning mr-2 mb-1 mt-1">
+              <a href="#" class="nav-link">View List</a>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button type="button" name="button" class="btn btn-warning mr-2 mb-1 mt-1">
+              <a href="#" class="nav-link">Edit List</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
+
+    <div class="container-fluid">
+      <div class="row p-3" style="background-color:#4d94ff">
+        <div class="col">
+          <h1 class="text-center">WORKFLOW</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5 p-5" style="background-color:#ff9999">
+          <form class="text-center" id="_form">
+            <!-- Alerts will be shown here -->
+            <span class="titletextinput">
+              <h3>Name :</h3>
+              <input type="text" id="nameoflist" class="form-control">
+              <br>
+            </span>
+            <!-- <button type="button" name="button" class="btn btn-dark" id="addlisttitlebtn">Add list title</button><br><br> -->
+            <h3>What To Do :</h3>
+            <input type="text" id="itemoflist" class="form-control"><br>
+            <button type="submit" name="button" class="btn btn-dark btn-lg" id="createlistbtn">Create List</button>
+            <button type="submit" name="button" class="btn btn-dark btn-lg" id="additembtn" style="display:none">Add to list</button>
+            <br>
+            <button type="button" name="button" class="btn btn-dark btn-lg" id="createnewlistbtn" style="display:none">Create new list</button>
+          </form>
+        </div>
+        <div class="col-7 p-5" id="listinfo" style="background-color:#c2c2a3">
+          <table class="table">
+            <thead id="listname" class="text-center">
+
+            </thead>
+            <tbody id="listitems" class="text-center">
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="main.js" charset="utf-8"></script>
+</html>
